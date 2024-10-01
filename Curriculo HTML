@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Curriculo Eduardo</title>
+    </head>
+    <body>
+        <section>
+            <h1>Curriculo Eduardo</h1>
+            <p>
+                Sou estudante de Análise e Desenvolvimento de Sistemas na UFRN, com experiência em C++ e em <br />
+                aprimoramento de Java. Desenvolvi projetos em diversas linguagens, como p5.js, criando jogos <br />
+                interativos e trabalhando com bibliotecas gráficas. Foco na melhoria contínua de design e estrutura <br />
+                de código, com interesse em novos desafios para meu desenvolvimento como desenvolvedor.
+                <figure> <img src="C:/Users/edudu/Downloads/goat.jpg"> </figure>
+            </p>
+        </section>
+        <section>
+            <h2>Lista de interesses e preferencias</h2>
+            <ul>
+                <li>C++</li>
+                <li>Java</li>
+                <li>Desenvolvimento Front-End (HTML, CSS, JavaScript)</li>
+                <li>Design e Arquitetura de Software</li>
+                <li>Aprendizado Contínuo em Novas Tecnologias</li>
+                <li>Resolução de Problemas e Otimização de Código</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Horários disponíveis</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Terça</th>
+                        <th>Quinta</th>
+                        <th>Sexta</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Integral</td>
+                        <td>Matutino</td>
+                        <td>Vespertino</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section>
+            <h2>Contato, Github e Linkedin</h2>
+            <address>
+                Email: eduardojacintorodrigues@gmail.com <br /> 
+                Telefone: +55 (61) 9-9933-0138 <br />
+                
+                <a href="https://github.com/eduardowll">Github</a> <br />
+                <a href="https://www.linkedin.com/in/eduardo-rodrigues-8b981a322/">Linkedin</a>
+            </address>
+        </section>
+        <section>
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15227.759933265478!2d-48.0244815!3d-15.6311764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a4725201d4809%3A0xc8beddeaad40d264!2sSobradinho%2C%20Bras%C3%ADlia%20-%20DF!5e0!3m2!1spt-BR!2sbr!4v1696198664282!5m2!1spt-BR!2sbr" 
+                width="600" 
+                height="450" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </section>
+    </body>
+</html>
