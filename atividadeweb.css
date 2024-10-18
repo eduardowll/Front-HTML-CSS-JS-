@@ -1,0 +1,36 @@
+.container{
+    width:70%;
+    margin:auto;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+figure{
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+figcaption{
+    font-style: italic;
+}
+
+hr{
+    height: 15px;
+    background-color: brown;
+}
+
+footer{
+    background-color: darkslategrey;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    border: 10px brown;
+}
+
+h1{
+    border: 2px;
+}
