@@ -1,0 +1,68 @@
+// 1. Somar Elementos de um Array
+function somarArray(arr) {
+    return arr.reduce((acc, num) => acc + num, 0);
+}
+
+// 2. Verificar se um Número é Primo
+function numeroPrimo(num) {
+    if (num < 2) return false;
+    for (let i = 2; i <= Math.sqrt(num); i++) {
+        if (num % i === 0) return false;
+    }
+    return true;
+}
+
+// 3. Contar Vogais em uma String
+function contarVogais(str) {
+    let vogais = "aeiouAEIOU";
+    return [...str].filter(char => vogais.includes(char)).length;
+}
+
+// 4. Inverter uma String
+function inverterString(str) {
+    return str.split('').reverse().join('');
+}
+
+// 5. Encontrar o Fatorial de um Número
+function fatorial(n) {
+    if (n === 0 || n === 1) return 1;
+    return n * fatorial(n - 1);
+}
+
+// 6. Encontrar o Maior Número em um Array
+function maiorNumero(arr) {
+    return Math.max(...arr);
+}
+
+// 7. Verificar Palíndromo
+function palindromo(str) {
+    let invertida = inverterString(str);
+    return str === invertida;
+}
+
+// 8. Ordenar um Array em Ordem Crescente
+function ordenarArray(arr) {
+    return arr.slice().sort((a, b) => a - b);
+}
+
+// 9. Contar Ocorrências de um Caractere em uma String
+function contarOcorrencias(str, char) {
+    return [...str].filter(c => c === char).length;
+}
+
+// 10. Encontrar a Média de um Array
+function mediaArray(arr) {
+    return somarArray(arr) / arr.length;
+}
+
+// Testes
+console.log(somarArray([12, 22, 4, 20, 10]));
+console.log(numeroPrimo(11));
+console.log(contarVogais('eduardo'));
+console.log(inverterString('tads')); 
+console.log(fatorial(6)); 
+console.log(maiorNumero([10, 5, 8, 20, 3]));
+console.log(palindromo('banana'));
+console.log(ordenarArray([3, 1, 4, 2, 5])); 
+console.log(contarOcorrencias('eduardo', 'd'));
+console.log(mediaArray([1, 2, 3, 4, 5]));
